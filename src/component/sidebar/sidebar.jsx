@@ -72,9 +72,20 @@ const Sidebar = () => {
         </ui>
         <button className="sidebarbutton">Show More</button>
         <hr className="sidebarhr"/>
+        <ul className="sidebarfriendlist">
         <li className="sidebarfriend">
-          <img src="" alt=""  className="sidebarfriendimg"/>
-        </li>
+            <img src="assets/person/2.jpeg" alt=""  className="sidebarfriendimg"/>
+            <span className="sidebarfrontname">Mr Pardeep Chauahan</span>
+          </li>
+          <li className="sidebarfriend">
+            <img src="assets/person/1.jpeg" alt=""  className="sidebarfriendimg"/>
+            <span className="sidebarfrontname">Rekha</span>
+          </li>
+          <li className="sidebarfriend">
+            <img src="assets/person/10.jpeg" alt=""  className="sidebarfriendimg"/>
+            <span className="sidebarfrontname">Kuhu</span>
+          </li>
+        </ul>
       </div>
     </div>
   );
