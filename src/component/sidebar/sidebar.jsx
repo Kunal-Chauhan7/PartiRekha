@@ -74,16 +74,24 @@ const Sidebar = () => {
         <hr className="sidebarhr"/>
         <ul className="sidebarfriendlist">
         <li className="sidebarfriend">
-            <img src="assets/person/2.jpeg" alt=""  className="sidebarfriendimg"/>
+            <img src="assets/person/papa.jpg" alt=""  className="sidebarfriendimg"/>
             <span className="sidebarfrontname">Mr Pardeep Chauahan</span>
           </li>
           <li className="sidebarfriend">
             <img src="assets/person/1.jpeg" alt=""  className="sidebarfriendimg"/>
-            <span className="sidebarfrontname">Rekha</span>
+            <span className="sidebarfrontname">Rekha ji</span>
           </li>
           <li className="sidebarfriend">
             <img src="assets/person/10.jpeg" alt=""  className="sidebarfriendimg"/>
             <span className="sidebarfrontname">Kuhu</span>
+          </li>
+          <li className="sidebarfriend">
+            <img src="assets/person/Shruti.jpg" alt=""  className="sidebarfriendimg"/>
+            <span className="sidebarfrontname">Shruti</span>
+          </li>
+          <li className="sidebarfriend">
+            <img src="assets/person/8.jpeg" alt=""  className="sidebarfriendimg"/>
+            <span className="sidebarfrontname">Diksha</span>
           </li>
         </ul>
       </div>
