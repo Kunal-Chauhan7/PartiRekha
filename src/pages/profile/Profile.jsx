@@ -12,12 +12,19 @@ const Profile = () => {
         <Sidebar/>
         <div className='profileRight'>
         <div className='profileRightTop'>
-            <img className='profileCoverImage' src="assets/post/1.jpeg" alt="" />
-            <img className='profileUserImage' src="assets/person/2.jpeg" alt="" />
+            <div className='profileCover'>
+              <img className='profileCoverImage' src="assets/post/1.jpeg" alt="" />
+              <img className='profileUserImage' src="assets/person/2.jpeg" alt="" />
+            </div>
+            <div className='profileInfo'>
+              <h4 className='profileInfoName'>Kunal Chauhan</h4>
+              <span className='profileInfoDesc'>Hello My Friends</span>
+            </div>
         </div>
+
         <div className='profileRightBottom'>
             <Feeds/>
-            <Rightbar/>
+            <Rightbar profile/>
             </div>
         </div>
       </div>
